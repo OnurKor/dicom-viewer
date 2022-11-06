@@ -1,0 +1,96 @@
+.sidebar_container {
+    height: 100%;
+    display: flex;
+}
+
+.left_container {
+    background-color: var(--sideBarColor);
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.sidebar_menuItem{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--buttonRadius);
+    background-color: var(--secondaryColor);
+    cursor: pointer;
+    color:#fff;
+}
+
+.sidebar_menuItem:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 0 #555;
+}
+.sidebar_menuItem:active {
+    transform: scale(1);
+    /* box-shadow: 0px 0px 5px 0 #555; */
+    opacity: 0.8;
+}
+
+
+/* ################################################################################################# */
+/* ########################################## right container ###################################### */
+/* ################################################################################################# */
+.right_container {
+    height: 100%;
+    /* border-right: 1px solid var(--secondaryColor); */
+    /* background-color: red; */
+    padding:10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.imageUpload_area {
+    background-color: var(--secondaryColor);
+    padding:20px;
+    border-radius: var(--buttonRadius);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.imageUpload_icon {
+    background-color: #555;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageUpload_button {
+    background-color: var(--secondaryColor);
+    padding:10px;
+    border-radius: var(--buttonRadius);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.imageUpload_button:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 5px 0 #555;
+}
+.imageUpload_button:active {
+    transform: scale(1);
+    /* box-shadow: 0px 0px 5px 0 #555; */
+    opacity: 0.8;
+}
