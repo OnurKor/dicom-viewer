@@ -23,7 +23,7 @@ const ImageContainer = ({ image }) => {
       <CanvasDraw
 
         brushColor="#04750a"
-        catenaryColor="red"
+        catenaryColor="green"
         gridColor="transparent"
         brushRadius={2}
      
